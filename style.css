@@ -66,11 +66,15 @@ a {
     border-radius: 3px;
     color: white;
     padding: 4px 16px;
+    max-width: 80px;
 }
 
 .top .content {
     color: white;
     max-width: 400px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mid .content {
